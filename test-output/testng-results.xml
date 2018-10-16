@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-30T18:06:05Z" name="Default suite" finished-at="2018-09-30T18:06:31Z" duration-ms="26508">
+    <groups>
+    </groups>
+    <test started-at="2018-09-30T18:06:05Z" name="Default test" finished-at="2018-09-30T18:06:31Z" duration-ms="26508">
+      <class name="dataConf.TestSetUp">
+        <test-method signature="GettData()[pri:0, instance:dataConf.TestSetUp@1dac5ef]" started-at="2018-09-30T18:06:05Z" name="GettData" description="This function is to read all data from Data.properties file" finished-at="2018-09-30T18:06:05Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GettData -->
+        <test-method signature="StartChromeBrowser()[pri:0, instance:dataConf.TestSetUp@1dac5ef]" started-at="2018-09-30T18:06:05Z" name="StartChromeBrowser" description="Start the Chrome browser and navigate to DT" finished-at="2018-09-30T18:06:20Z" depends-on-methods="dataConf.TestSetUp.GettData" duration-ms="15557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartChromeBrowser -->
+        <test-method signature="StartIEBrowser()[pri:0, instance:dataConf.TestSetUp@1dac5ef]" started-at="2018-09-30T18:06:20Z" name="StartIEBrowser" description="Start the IE browser and navigate to DT" finished-at="2018-09-30T18:06:31Z" depends-on-methods="dataConf.TestSetUp.GettData" duration-ms="10895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartIEBrowser -->
+      </class> <!-- dataConf.TestSetUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
